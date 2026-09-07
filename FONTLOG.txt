@@ -1,0 +1,50 @@
+FONTLOG for Ricing
+==================
+
+Ricing is a variable font with a single axis: wght (100-900).
+
+Every letter is composed of rice grain tapered ovals.
+At wght 900, the grains converge into recognizable letter shapes.
+At wght 100, the grains scatter apart, breaking the forms into
+abstract rice-like fragments.
+
+Design: Michael Seh
+Foundry: Michael's Fonts
+
+Format
+------
+- Ricing-VF.otf  — OpenType variable font (TrueType outlines)
+- Ricing-VF.woff2 — WOFF2-compressed variable font for web use
+- static/*.ttf — 9 static instances (Thin through Black)
+
+Technical Details
+-----------------
+- UPM: 1000
+- Axes: wght 100-900 (two masters: Light at 100, Bold at 900)
+- Glyphs: 96 base glyphs + 12 contextual alternates (108 total)
+  - A-Z uppercase
+  - a-z lowercase
+  - 0-9 digits (tabular width)
+  - 32 symbols: ` ~ ! @ # $ % ^ & * ( ) - _ = + [ ] { } \ | ; : ' " , . < > / ?
+- Features: GSUB calt (contextual alternates), GPOS kern (kerning)
+- All grains uniform size at each weight
+
+Changelog
+---------
+Version 1.300 (2026-03-22)
+- Kerning overhaul: replaced flat -30 kern values with differentiated
+  per-pair values derived from glyph bounding box geometry
+- Expanded kern pair coverage from 112 to 962 pairs (661 base + 301
+  .calt alternate mirrors)
+- Added UC-to-LC pairs for all 26 uppercase letters (A-Z + lowercase),
+  plus LC-to-LC pairs (r, f, k, v, w, y, o + lowercase)
+- Per-master variable kerning with proper ItemVariationStore deltas:
+  kern values now scale smoothly across the wght axis (74 unique delta
+  items)
+- All .calt alternate pairs (A.calt, V.calt, W.calt, Y.calt, T.calt,
+  L.calt, F.calt, P.calt, o.calt, r.calt, f.calt, t.calt) mirrored
+  for every base pair
+- Updated all 9 static instances and WOFF2 web font
+
+Version 1.000 (2026-03-10)
+- Initial release
