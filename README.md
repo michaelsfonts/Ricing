@@ -1,5 +1,7 @@
 # Ricing
 
+![Ricing across the weight axis](images/specimen.png)
+
 Every letter is composed of rice grain tapered ovals.
 
 At `wght 900` the grains converge into recognisable letter shapes. At `wght 100`
