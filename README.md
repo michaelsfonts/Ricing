@@ -9,9 +9,9 @@ they scatter apart, breaking the forms into abstract rice-like fragments.
 
 ## Download
 
-**[Download Ricing 1.300](https://github.com/michaelsfonts/Ricing/releases/latest)**: the variable OTF to install on your computer, the variable WOFF2 for the web, or the zip, which also holds the nine static TTF weights.
+Head to [Releases](https://github.com/michaelsfonts/Ricing/releases/latest). The variable OTF is the one to install, the variable WOFF2 is for the web, and the zip throws in the nine static TTF weights.
 
-The same files are in [`fonts/`](fonts/) if you would rather browse the repo.
+[`fonts/`](fonts/) holds all of it too.
 
 ## Details
 
@@ -24,5 +24,4 @@ The same files are in [`fonts/`](fonts/) if you would rather browse the repo.
 
 ---
 
-Part of [Michael's Fonts](https://michaelsfonts.com). This repository is archived:
-the font is finished and is kept here for reference.
+Part of [Michael's Fonts](https://michaelsfonts.com). Archived, the font is done.
