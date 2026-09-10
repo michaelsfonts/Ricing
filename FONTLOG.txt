@@ -13,9 +13,9 @@ Foundry: Michael's Fonts
 
 Format
 ------
-- Ricing-VF.otf  — OpenType variable font (TrueType outlines)
-- Ricing-VF.woff2 — WOFF2-compressed variable font for web use
-- static/*.ttf — 9 static instances (Thin through Black)
+- Ricing-VF.otf: OpenType variable font (TrueType outlines)
+- Ricing-VF.woff2: WOFF2-compressed variable font for web use
+- static/*.ttf: 9 static instances (Thin through Black)
 
 Technical Details
 -----------------
