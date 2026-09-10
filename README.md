@@ -9,9 +9,9 @@ they scatter apart, breaking the forms into abstract rice-like fragments.
 
 ## Download
 
-Head to [Releases](https://github.com/michaelsfonts/Ricing/releases/latest). The variable OTF is the one to install, the variable WOFF2 is for the web, and the zip throws in the nine static TTF weights.
+[Releases](https://github.com/michaelsfonts/Ricing/releases/latest). Variable OTF or WOFF2, and the zip adds the nine static TTFs.
 
-[`fonts/`](fonts/) holds all of it too.
+All of it is in [`fonts/`](fonts/) as well.
 
 ## Details
 
